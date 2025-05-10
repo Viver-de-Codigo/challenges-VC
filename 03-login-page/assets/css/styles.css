@@ -107,7 +107,10 @@ main section .login-container button {
   font-weight: 600;
   line-height: normal;
   text-transform: uppercase;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
   margin: 30px auto;
 }
 
