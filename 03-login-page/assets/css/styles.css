@@ -82,10 +82,6 @@ main section .login-container .login-form {
   margin: 20px 0;
 }
 
-main section .login-container .login-form input[type="email"] {
-  margin-bottom: 20px;
-}
-
 main section .login-container .login-form input {
   width: 478px;
   height: 46px;
@@ -93,6 +89,36 @@ main section .login-container .login-form input {
   background: #c0dbea;
   outline: none;
   border: none;
+}
+
+main section .login-container .login-form input[type="email"] {
+  margin-bottom: 20px;
+}
+
+main section .login-container .login-form input::placeholder {
+  padding: 0 10px;
+}
+
+main section .login-container .login-form .login-form-password {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+main
+  section
+  .login-container
+  .login-form
+  .login-form-password
+  label:last-child {
+  color: #000;
+  text-align: right;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 }
 
 main section .login-container button {
