@@ -1,0 +1,5 @@
+:root {
+  --blue01: rgba(0, 131, 176, 0.61);
+  --pink01: rgba(166, 4, 120, 0.54);
+  --background: linear-gradient(90deg, var(--blue01), var(--pink01));
+}
